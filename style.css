@@ -1,0 +1,55 @@
+
+.parent{
+    
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 13);
+    border: 1px solid rgb(5, 124, 74);
+    height: 400px;
+    width: 400px;
+
+}
+
+
+.input{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: beige;
+     border: 1px solid rgb(5, 124, 74); 
+     gap: 20px;
+}
+.box{
+    border: 2px solid rgb(4, 139, 56);
+  display: flex;
+  height: 40px;
+  width: 80px;
+border-radius: 15px;
+background-color: rgb(3, 112, 76);
+color: white;
+font-size: large;
+
+}
+.button_1{
+    display: flex; 
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+gap: 4px;
+}
+.button{
+    display: flex; 
+justify-content: center;
+align-items: center;
+height: 50px;
+width: 50px;
+border: 1px solid rgb(4, 148, 93);
+font-size: xx-large;
+
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 117, 37);
+    color: white;
+}
